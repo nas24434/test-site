@@ -1,0 +1,193 @@
+body {
+    font-family: "montserrat" !important;
+}
+
+h1 {
+    font-family: "montserrat-black" !important;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'montserrat-bold' !important;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-bold' !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'ubuntu' !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: "montserrat-light" !important;
+    font-size: 1.2rem;
+}
+
+/* download button */
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* title image */
+.title-image {
+    width: 21%;
+    transform: rotate(25deg);
+    position: absolute;
+    padding-top: 40px;
+    right: 25%;
+
+}
+
+/* features section */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* button-icon */
+
+.app {
+    height: 20px;
+    width: 15px;
+    margin-bottom: 5px;
+}
+
+.play {
+    height: 20px;
+    width: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* Testimonial section */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fffafa;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 10%;
+}
+
+/* press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: lightcoral !important;
+}
+
+.app-icon {
+    margin-right: 5px;
+}
+
+.btn2 {
+    height: auto;
+    width: 50%;
+}
+
+/* pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* continuation container-fluid2x */
+#title {
+    background-color: red;
+    color: #fff;
+}
+
+.container-fluid2x {
+    padding: 3% 15% 7% !important;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
+/* call to action */
+#cta {
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.upd {
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    color: #fff;}
+
+.fot {
+    margin: 5% 3% 5% 0%;
+}
+
+/* footer */
+#footer {
+    background-color: #fff;
+    padding: 7% 20%;
+    text-align: center;
+}
+.icon-foot{
+    margin: 20px 10px;
+}
